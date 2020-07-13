@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FdU-Zm-XhM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Flights-->
+        <scene sceneID="Bv2-yX-Ph7">
+            <objects>
+                <tableViewController id="dz0-Ue-cf1" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fcH-rz-QCB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="flightCell" rowHeight="102" id="dLR-5f-uaF">
+                                <rect key="frame" x="0.0" y="28" width="414" height="102"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dLR-5f-uaF" id="mL7-YK-2Jn">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="102"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqZ-rz-Jr1">
+                                            <rect key="frame" x="20" y="11" width="374" height="80"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fbn-FL-jQf">
+                                                    <rect key="frame" x="0.0" y="0.0" width="302" height="80"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genus species" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3q0-Oe-6rf">
+                                                            <rect key="frame" x="0.0" y="0.0" width="302" height="26.5"/>
+                                                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vg2-Bs-Ulg">
+                                                            <rect key="frame" x="0.0" y="26.5" width="302" height="27"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUu-um-jOh">
+                                                            <rect key="frame" x="0.0" y="53.5" width="302" height="26.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ant" translatesAutoresizingMaskIntoConstraints="NO" id="cjF-vh-a4G">
+                                                    <rect key="frame" x="302" y="0.0" width="72" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="cjF-vh-a4G" secondAttribute="height" multiplier="1:1" id="AqT-ta-bqX"/>
+                                                        <constraint firstAttribute="width" constant="72" id="LaA-ev-x9i"/>
+                                                        <constraint firstAttribute="height" constant="72" id="f0k-f0-Jgu"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="dqZ-rz-Jr1" firstAttribute="top" secondItem="mL7-YK-2Jn" secondAttribute="topMargin" id="6aN-Sf-coW"/>
+                                        <constraint firstItem="dqZ-rz-Jr1" firstAttribute="leading" secondItem="mL7-YK-2Jn" secondAttribute="leadingMargin" id="JvO-Ky-kzq"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="dqZ-rz-Jr1" secondAttribute="bottom" id="Q58-Rh-jza"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="dqZ-rz-Jr1" secondAttribute="trailing" id="y2D-iq-tgy"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Flights" id="oMh-Jb-Awo">
+                        <leftBarButtonItems>
+                            <barButtonItem enabled="NO" image="antinfo" id="HGR-1r-YeR"/>
+                            <barButtonItem enabled="NO" title="Sign In" id="iXr-ZL-meC"/>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem enabled="NO" systemItem="add" id="4Wi-i7-uSy"/>
+                            <barButtonItem enabled="NO" title="Filter" id="xeK-jV-HWV"/>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ajz-R9-V6R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1363.768115942029" y="423.21428571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fGc-67-2T8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FdU-Zm-XhM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uti-Aw-8tu">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="dz0-Ue-cf1" kind="relationship" relationship="rootViewController" id="ZcH-IF-ad2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MDm-YY-aJx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="453.62318840579712" y="422.54464285714283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ant" width="135" height="135"/>
+        <image name="antinfo" width="27" height="27"/>
+    </resources>
+</document>

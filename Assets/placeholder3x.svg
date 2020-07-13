@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="placeholder3x.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg1062"
+   version="1.1"
+   viewBox="0 0 192.00018 128.50012"
+   height="485.66974"
+   width="725.66998">
+  <defs
+     id="defs1056" />
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="169"
+     inkscape:window-height="807"
+     inkscape:window-width="1252"
+     inkscape:snap-page="true"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="106.88772"
+     inkscape:cx="249.08519"
+     inkscape:zoom="1.0253912"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata1059">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0.24999952,0.24999946)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       y="0.50000054"
+       x="0.50000048"
+       height="127.00012"
+       width="190.50018"
+       id="rect1640"
+       style="opacity:0.95;fill:#e6e6e6;fill-opacity:1;stroke:#1a1a1a;stroke-width:1.5;stroke-linecap:round" />
+    <text
+       id="text1662"
+       y="67.333199"
+       x="95.722191"
+       style="font-size:12.7px;line-height:1.25;font-family:'.SF NS Rounded';-inkscape-font-specification:'.SF NS Rounded';fill:#1a1a1a;stroke-width:0.793751"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.7px;font-family:'System Font';-inkscape-font-specification:'System Font';text-align:center;text-anchor:middle;fill:#1a1a1a;stroke-width:0.793751"
+         y="67.333199"
+         x="95.722191"
+         id="tspan1660"
+         sodipodi:role="line">Select an Image</tspan></text>
+  </g>
+</svg>

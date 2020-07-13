@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/Users/benjamin/Documents/Lab/nuptialtrack-app/Assets/commentBlueSmall.png"
+   sodipodi:docname="commentWhiteBig.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 47.783608 42.628338"
+   height="161.11497"
+   width="180.59946">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:pagecheckerboard="true"
+     units="px"
+     inkscape:window-maximized="0"
+     inkscape:window-y="79"
+     inkscape:window-x="1630"
+     inkscape:window-height="807"
+     inkscape:window-width="1440"
+     fit-margin-bottom="0.3"
+     fit-margin-right="0.3"
+     fit-margin-left="0.3"
+     fit-margin-top="0.3"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="69.83286"
+     inkscape:cx="106.36331"
+     inkscape:zoom="3.4409978"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     lock-margins="true" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-34.250967,-82.543376)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       sodipodi:nodetypes="sssssssss"
+       inkscape:connector-curvature="0"
+       d="M 42.073056,83.561266 H 74.21248 c 3.769524,0 6.804204,3.034686 6.804204,6.804199 v 19.059225 c 0,28.57077 -1.200693,6.80421 -6.804204,6.80421 H 42.073056 c -3.769513,0 -6.804199,-3.03468 -6.804199,-6.80421 V 90.365465 c 0,-3.769513 3.034686,-6.804199 6.804199,-6.804199 z"
+       style="opacity:1;fill:none;stroke:#ffffff;stroke-width:1.87703;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect835" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.87703;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 40.091779,90.083109 H 76.193744"
+       id="path842" />
+    <path
+       id="path842-8"
+       d="M 40.091779,95.248742 H 76.193744"
+       style="fill:none;stroke:#ffffff;stroke-width:1.87703;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path842-3"
+       d="M 40.091779,100.41437 H 76.193744"
+       style="fill:none;stroke:#ffffff;stroke-width:1.87703;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path842-9"
+       d="M 40.091773,105.57998 H 76.193744"
+       style="fill:none;stroke:#ffffff;stroke-width:1.87703;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:1.87703;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 40.091773,110.74564 H 76.193744"
+       id="path842-9-0" />
+  </g>
+</svg>
