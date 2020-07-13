@@ -22,7 +22,6 @@ import Foundation
 class URLManager
 {
     // MARK: - Create singleton
-//    static let current = URLManager.init(base: "http://192.168.2.31/")
     static let current = URLManager.init(base: "https://www.antnuptialflights.com/")
        
     private init(base pBaseURL:String)
