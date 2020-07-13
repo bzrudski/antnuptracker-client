@@ -212,8 +212,8 @@
 		43BF27FD22B82E310031EF5A /* SingleSelectResultSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelectResultSearchTableViewController.swift; sourceTree = "<group>"; };
 		43BF280622BC16A80031EF5A /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		43BF280922BC1AA00031EF5A /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
-		43C9943122CEA531001FF200 /* FlightDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FlightDetailTableViewController.swift; path = ../FlightDetailTableViewController.swift; sourceTree = "<group>"; };
-		43C9943422CED654001FF200 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationTableViewCell.swift; path = ../LocationTableViewCell.swift; sourceTree = "<group>"; };
+		43C9943122CEA531001FF200 /* FlightDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailTableViewController.swift; sourceTree = "<group>"; };
+		43C9943422CED654001FF200 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 		43C9943822CEF47E001FF200 /* MapListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListViewController.swift; sourceTree = "<group>"; };
 		43C9943A22CF9B65001FF200 /* FlightAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAnnotation.swift; sourceTree = "<group>"; };
 		43C9943C22CFA345001FF200 /* LoginScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginScreen.storyboard; sourceTree = "<group>"; };
