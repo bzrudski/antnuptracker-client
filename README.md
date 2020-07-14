@@ -1,6 +1,8 @@
 # antnuptracker-client
 Client app for AntNupTracker
 
+Copyright (C) 2020 Abouheif Lab
+
 Welcome to the repository for the `AntNupTracker` app. A contribution guide is coming shortly.
 
 This app is a tool for browsing records of [ant nuptial flights](https://www.antnuptialflights.com/about/) and reporting new flights from the field. Visit our website at https://www.antnuptialflights.com for more details. For the server-side application that manages the database of ant nuptial flights, please go to [this repository](https://github.com/bzrudski/antnuptracker-server/).
