@@ -11,6 +11,6 @@ Our app is licensed under the GNU GPLv3 with App Store Exception (see `COPYING`)
 
 In order to build, clone this repository and open the `Xcode` project. You may need to tweak a few settings. If you would like to test your modifications against a custom version of the backend, make sure that you change the `baseURL` in `URLManager.swift`.
 
-IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license.
+IOS is a trademark or registered trademark of Cisco in the U.S. and other countries.
 
-App Store, Xcode are trademarks of Apple Inc., registered in the U.S. and other countries.
+App Store and Xcode are trademarks of Apple Inc., registered in the U.S. and other countries.
