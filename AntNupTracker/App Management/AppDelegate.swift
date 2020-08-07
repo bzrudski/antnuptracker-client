@@ -48,12 +48,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
                 }
             }
         })
+
+        // Here, you can make changes to alter how the app launches. Below
+        // are some examples, such as clearing the stored flighst, credentials
+        // and forcing the welcome screen to appear.
         
+        // Uncomment this line to forcibly show the welcome screen on launch
 //        UserDefaults.standard.set(false, forKey: "welcomeScreenHasOpened")
        
+        // Uncomment these lines to clear the stored credentials. Optionally crash after clearing
 //        FlightAppManager.shared.sessionManager.clearCredentials()
-//        fatalError("Credentials Cleared.")
+//        print("Credentials Cleared")
+//        fatalError("Credentials Cleared")
         
+        // Uncomment these lines to clear your stored flights. Optionally, crash after clearing
 //        FlightAppManager.shared.flights.clearStoredFlight()
 //        print("Stored Flights Cleared")
 //        fatalError("Stored flights cleared")

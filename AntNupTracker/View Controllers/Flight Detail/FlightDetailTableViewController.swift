@@ -76,7 +76,14 @@ class FlightDetailTableViewController: UITableViewController, FlightFetchDetailO
     }
     
     @IBAction func verifyFlight(_ sender: UIBarButtonItem){
-        triggerValidation()
+        let validateAlert = UIAlertController(title: "Confirm Validation", message: "Are you sure that you want to mark this flight as validated?", preferredStyle: .alert)
+        validateAlert.addAction(.init(title: "Cancel", style: .cancel, handler: nil))
+        validateAlert.addAction(.init(title: "Validate", style: .destructive, handler: {
+            action in
+            self.triggerValidation()
+        }))
+        
+        self.present(validateAlert, animated: true, completion: nil)
     }
     
     @IBAction func done(_ sender: UIBarButtonItem){

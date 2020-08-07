@@ -230,7 +230,7 @@
 		43DB26DB24B39FE70049ADBC /* FlightImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightImageManager.swift; sourceTree = "<group>"; };
 		43DB26DD24B3A0C80049ADBC /* FlightValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightValidationManager.swift; sourceTree = "<group>"; };
 		43DB26DF24B3A2560049ADBC /* FilteringManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringManager.swift; sourceTree = "<group>"; };
-		43DB476422A56AC90002422B /* AntNupTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntNupTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43DB476422A56AC90002422B /* AntNupTrackerDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntNupTrackerDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DB477822A56ACE0002422B /* AntNupTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntNupTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43DB477C22A56ACE0002422B /* AntNupTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntNupTrackerTests.swift; sourceTree = "<group>"; };
 		43DB477E22A56ACE0002422B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -586,7 +586,7 @@
 		43DB476522A56AC90002422B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43DB476422A56AC90002422B /* AntNupTracker.app */,
+				43DB476422A56AC90002422B /* AntNupTrackerDev.app */,
 				43DB477822A56ACE0002422B /* AntNupTrackerTests.xctest */,
 				43DB478322A56ACE0002422B /* AntNupTrackerUITests.xctest */,
 			);
@@ -645,7 +645,7 @@
 			);
 			name = AntNupTracker;
 			productName = NuptialLog;
-			productReference = 43DB476422A56AC90002422B /* AntNupTracker.app */;
+			productReference = 43DB476422A56AC90002422B /* AntNupTrackerDev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		43DB477722A56ACE0002422B /* AntNupTrackerTests */ = {
@@ -1049,8 +1049,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brudski.NuptialTracker;
-				PRODUCT_NAME = AntNupTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brudski.NuptialTracker-dev";
+				PRODUCT_NAME = AntNupTrackerDev;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1071,8 +1071,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.brudski.NuptialTracker;
-				PRODUCT_NAME = AntNupTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brudski.NuptialTracker-dev";
+				PRODUCT_NAME = AntNupTrackerDev;
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

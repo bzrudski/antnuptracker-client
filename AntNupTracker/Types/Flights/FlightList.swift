@@ -367,6 +367,7 @@ class FlightList:Sequence
             }
             
             self.flightChangeObserver?.flightListEdited()
+            self.flightListObserver?.flightListChanged()
             
         }, errorHandler: {
             _ in
@@ -497,6 +498,7 @@ class FlightList:Sequence
         self.flights.first(where: {flight in
             flight.flightID == id
         })!.validated = true
+        self.flightListObserver?.flightListChanged()
     }
     
     // MARK: - Saving the list
