@@ -157,10 +157,9 @@ class SpeciesTableViewController: UITableViewController, UISearchResultsUpdating
     }
     
     override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        guard let cell = tableView.cellForRow(at: indexPath) else {
-            fatalError("Error with cell index path")
+        if let cell = tableView.cellForRow(at: indexPath) {
+            cell.accessoryType = .none
         }
-        cell.accessoryType = .none
     }
     
     // MARK: - Search Methods
