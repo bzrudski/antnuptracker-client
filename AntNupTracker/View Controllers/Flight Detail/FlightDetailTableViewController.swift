@@ -76,7 +76,7 @@ class FlightDetailTableViewController: UITableViewController, FlightFetchDetailO
     }
     
     @IBAction func verifyFlight(_ sender: UIBarButtonItem){
-        let validateAlert = UIAlertController(title: "Confirm verificatio", message: "Are you sure that you want to mark this flight as verified?", preferredStyle: .alert)
+        let validateAlert = UIAlertController(title: "Confirm verification", message: "Are you sure that you want to mark this flight as verified?", preferredStyle: .alert)
         validateAlert.addAction(.init(title: "Cancel", style: .cancel, handler: nil))
         validateAlert.addAction(.init(title: "Verify", style: .destructive, handler: {
             action in
