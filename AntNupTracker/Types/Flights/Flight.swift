@@ -106,11 +106,14 @@ class Flight:Codable, Equatable{
         if (l.dateRecorded != r.dateRecorded){ return false }
         if (l.owner != r.owner){ return false }
         if (l.comments != r.comments){ return false }
-        if (l.image != nil && r.image != nil){
-            if (l.image! != r.image!){
-                return false
-            }
-        }
+//        if (l.image != nil && r.image != nil){
+//            if (l.image! != r.image!){
+//                return false
+//            }
+//        }
+        
+        if (l.image != r.image) {return false}
+        
         if (l.weather != r.weather){ return false }
         
         if (l.size != r.size){ return false}

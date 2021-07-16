@@ -76,7 +76,14 @@ class FlightDetailTableViewController: UITableViewController, FlightFetchDetailO
     }
     
     @IBAction func verifyFlight(_ sender: UIBarButtonItem){
-        triggerValidation()
+        let validateAlert = UIAlertController(title: "Confirm verificatio", message: "Are you sure that you want to mark this flight as verified?", preferredStyle: .alert)
+        validateAlert.addAction(.init(title: "Cancel", style: .cancel, handler: nil))
+        validateAlert.addAction(.init(title: "Verify", style: .destructive, handler: {
+            action in
+            self.triggerValidation()
+        }))
+        
+        self.present(validateAlert, animated: true, completion: nil)
     }
     
     @IBAction func done(_ sender: UIBarButtonItem){
@@ -456,7 +463,7 @@ class FlightDetailTableViewController: UITableViewController, FlightFetchDetailO
         switch e {
         case .noResponse:
             title = "Network Error"
-            body = "Error sending the request to validate the flight. Check your network connection and try again."
+            body = "Error sending the request to verify the flight. Check your network connection and try again."
             actions.append(.init(title: "Cancel", style: .cancel, handler: nil))
             actions.append(.init(title: "Try Again", style: .default, handler: {action in
                 self.triggerValidation()
@@ -473,7 +480,7 @@ class FlightDetailTableViewController: UITableViewController, FlightFetchDetailO
             }))
         case .insufficientPrivileges:
             title = "Insufficient Privileges"
-            body = "Validation can only be performed by professionals. If you are a professional, try logging back in. If the problem persists, contact us."
+            body = "Verification can only be performed by professionals. If you are a professional, try logging back in. If the problem persists, contact us."
             actions.append(.init(title: "OK", style: .cancel, handler: {action in
                 self.updateVerifyButtonState()
             }))
@@ -482,8 +489,8 @@ class FlightDetailTableViewController: UITableViewController, FlightFetchDetailO
             body = "The selected flight was not found. Please try again later. If you think this is an error, please contact us."
             actions.append(okAction)
         case let .validateError(status):
-            title = "Other Validate Error"
-            body = "An error occurred while attempting to validate the flight (status=\(status)). Please try again later. If the problem persists, please contact us."
+            title = "Other Verification Error"
+            body = "An error occurred while attempting to verify the flight (status=\(status)). Please try again later. If the problem persists, please contact us."
             actions.append(.init(title: "OK", style: .cancel, handler: nil))
         }
         alert = UIAlertController(title: title, message: body, preferredStyle: .alert)

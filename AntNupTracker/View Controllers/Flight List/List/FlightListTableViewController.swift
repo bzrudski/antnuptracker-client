@@ -401,8 +401,7 @@ class FlightListTableViewController: UITableViewController, UIPopoverPresentatio
     
     func flightListChanged() {
         DispatchQueue.main.async {
-            self.refreshControl!.beginRefreshing()
-            self.triggerReload()
+            self.tableView.reloadData()
         }
     }
     
